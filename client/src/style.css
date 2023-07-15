@@ -1,0 +1,16 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://img.freepik.com/free-vector/abstract-classic-blue-screensaver_23-2148421853.jpg?w=1060&t=st=1689006207~exp=1689006807~hmac=cc13118b49dde3e8a1428b1878c3dc7b2e1e8cfe27d7427a03dc76642d97e8cf);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
