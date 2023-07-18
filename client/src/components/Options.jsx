@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState, useContext } from "react";
 import {
   Button,
   TextField,
@@ -7,9 +7,9 @@ import {
   Container,
   Paper,
 } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Assignment, Phone, PhoneDisabled } from "@material-ui/icons";
+import { makeStyles } from "@material-ui/core/styles";
 
 import { SocketContext } from "../SocketContext";
 
@@ -64,7 +64,7 @@ const Options = ({ children }) => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 fullWidth
-              ></TextField>
+              />
               <CopyToClipboard text={me} className={classes.margin}>
                 <Button
                   variant="contained"
@@ -78,14 +78,14 @@ const Options = ({ children }) => {
             </Grid>
             <Grid item xs={12} md={6} className={classes.padding}>
               <Typography gutterBottom variant="h6">
-                Account Info
+                Make a call
               </Typography>
               <TextField
-                label="ID to Call"
+                label="ID to call"
                 value={idToCall}
                 onChange={(e) => setIdToCall(e.target.value)}
                 fullWidth
-              ></TextField>
+              />
               {callAccepted && !callEnded ? (
                 <Button
                   variant="contained"
