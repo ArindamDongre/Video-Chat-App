@@ -16,8 +16,6 @@
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1",
-    "react-test-render": "^1.1.2",
-    "react-test-renderer": "^17.0.0",
     "simple-peer": "^9.11.1",
     "socket.io-client": "^4.7.1",
     "web-vitals": "^2.1.4"
