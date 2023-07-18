@@ -68,7 +68,7 @@ const ContextProvider = ({ children }) => {
       userVideo.current.srcOject = currentStream;
     });
 
-    socket.on("calaccepted", (signal) => {
+    socket.on("callaccepted", (signal) => {
       setCallAccepted(true);
       peer.signal(signal);
     });
